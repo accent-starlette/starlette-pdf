@@ -4,7 +4,7 @@ gunicorn
 jinja2
 python-multipart
 starlette
-uvicorn
+uvicorn[standard]
 
 # accent stuff
 git+https://github.com/accent-starlette/starlette-core.git@master#egg=starlette-core
